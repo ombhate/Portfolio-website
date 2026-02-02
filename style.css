@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin:0;
     padding:0;
@@ -93,3 +94,100 @@ button{
         margin:10px 0;
     }
 }
+=======
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* ===== NAVBAR ===== */
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 30px;
+    background:#222;
+}
+
+.logo{
+    color:white;
+    font-size:22px;
+}
+
+.menu{
+    list-style:none;
+    display:flex;
+}
+
+.menu li{
+    margin-left:20px;
+}
+
+.menu a{
+    color:white;
+    text-decoration:none;
+}
+
+/* ===== SECTIONS ===== */
+.section{
+    padding: 60px 20px;
+    text-align: center;
+    background: #ffebcd;
+}
+
+
+.home h1{
+    color: #222;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+
+/* ===== SKILLS ===== */
+.skill-list{
+    list-style:none;
+}
+
+.skill-list li{
+    padding:8px;
+}
+
+/* ===== CONTACT FORM ===== */
+form{
+    max-width:300px;
+    margin:auto;
+}
+
+input, textarea{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+}
+
+button{
+    width:100%;
+    padding:10px;
+    border:none;
+    background:#222;
+    color:white;
+    cursor:pointer;
+}
+
+/* ===== RESPONSIVE ===== */
+@media(max-width:768px){
+
+    .navbar{
+        flex-direction:column;
+    }
+
+    .menu{
+        flex-direction:column;
+        margin-top:10px;
+    }
+
+    .menu li{
+        margin:10px 0;
+    }
+}
+>>>>>>> 8424b73a9d663546a3cf3eab9ee331b08fdcaed3
